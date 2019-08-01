@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ভেক্টর সমাধান</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_vector__calculation">মান ইনপুট</string>
+    <string name="title_activity_solve__process_1">সমাধান</string>
+    <string name="solve"></string>
+
+</resources>

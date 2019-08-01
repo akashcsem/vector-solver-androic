@@ -1,0 +1,299 @@
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#ff151515">
+
+
+
+
+        <LinearLayout
+            android:id="@id/linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:text="অপশন বাছাই করে ক্লিক করুন"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:layout_margin="3dp"
+                android:background="#ffcdff86"
+                android:textColor="#ff141414"
+                android:textSize="20dp"
+                android:gravity="center" />
+
+            <TextView
+                android:text="০১. ডট গুণন A . B = ?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:onClick="option1"
+                android:layout_margin="3dp"
+                android:background="#ffffb1cf"
+                android:textColor="#ff141414" />
+
+            <TextView
+                android:text="০২. ডট গুণন B . A = ?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:onClick="option2"
+                android:layout_margin="3dp"
+                android:background="#ffffb1cf"
+                android:textColor="#ff141414" />
+
+            <TextView
+                android:text="০৩. A . B = B . A সমান কিনা দেখাও?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:onClick="option3"
+                android:layout_margin="3dp"
+                android:background="#ffffb1cf"
+                android:textColor="#ff141414" />
+
+            <TextView
+                android:text="০৪. ভেক্টরদ্বয়ের যোগ A + B = ?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:onClick="option4"
+                android:layout_margin="3dp"
+                android:background="#ffffb1cf"
+                android:textColor="#ff141414" />
+
+            <TextView
+                android:text="০৫. ভেক্টরদ্বয়ের বিয়োগ A - B = ?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:onClick="option8"
+                android:layout_margin="3dp"
+                android:background="#ffffb1cf"
+                android:textColor="#ff141414" />
+
+            <TextView
+                android:text="০৬. ভেক্টরদ্বয়ের বিয়োগ B - A = ?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:onClick="option9"
+                android:layout_margin="3dp"
+                android:background="#ffffb1cf"
+                android:textColor="#ff141414" />
+
+            <TextView
+                android:text="০৭.  A - B = B - A সমান কিনা দেখাও?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:onClick="option7"
+                android:layout_margin="3dp"
+                android:background="#ffffb1cf"
+                android:textColor="#ff141414" />
+
+            <TextView
+                android:text="০৮. মডুলাস | A | = ?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:layout_margin="3dp"
+                android:onClick="option5"
+                android:background="#ffffb1cf"
+                android:textColor="#ff141414" />
+
+            <TextView
+                android:text="০৯. মডুলাস | B | = ?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:layout_margin="3dp"
+                android:onClick="option6"
+                android:background="#ffffb1cf"
+                android:textColor="#ff141414" />
+
+            <TextView
+                android:text="১০. ক্রোস গুণন  A x B = ?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:onClick="option10"
+                android:layout_margin="3dp"
+                android:background="#ffffb1cf"
+                android:textColor="#ff141414" />
+
+            <TextView
+                android:text="১১. ক্রোস গুণন  B x A = ?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:onClick="option11"
+                android:layout_margin="3dp"
+                android:background="#ffffb1cf"
+                android:textColor="#ff141414" />
+
+            <TextView
+                android:text="১২. মডুলাস | A x B | = ?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:onClick="option12"
+                android:layout_margin="3dp"
+                android:background="#ffffb1cf"
+                android:textColor="#ff141414" />
+
+            <TextView
+                android:text="১৩. মডুলাস | B x A | = ?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:onClick="option13"
+                android:layout_margin="3dp"
+                android:background="#ffffb1cf"
+                android:textColor="#ff141414" />
+
+            <TextView
+                android:text="১৪. । A x B | = | B x A | সমান কিনা দেখাও?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:onClick="option14"
+                android:layout_margin="3dp"
+                android:background="#ffffb1cf"
+                android:textColor="#ff141414" />
+
+            <TextView
+                android:text="১৫. একক ভেক্টর  Ƞ  = ?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:onClick="option15"
+                android:layout_margin="3dp"
+                android:background="#ffffb1cf"
+                android:textColor="#ff141414" />
+
+            <TextView
+                android:text="১৬. মডুলাস | AB | = ?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:onClick="option16"
+                android:layout_margin="3dp"
+                android:background="#ffffb1cf"
+                android:textColor="#ff141414" />
+
+            <TextView
+                android:text="১৭. A ভেক্টরের উপর লম্ব অভিক্ষেপ = ?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:onClick="option17"
+                android:layout_margin="3dp"
+                android:background="#ffffb1cf"
+                android:textColor="#ff141414" />
+
+            <TextView
+                android:text="১৮. B ভেক্টরের উপর লম্ব অভিক্ষেপ = ?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:onClick="option18"
+                android:layout_margin="3dp"
+                android:background="#ffffb1cf"
+                android:textColor="#ff141414" />
+
+
+            <TextView
+                android:text="১৯. অন্তর্ভুক্ত কোণ ᶿ = ?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:onClick="option19"
+                android:layout_margin="3dp"
+                android:background="#ffffb1cf"
+                android:textColor="#ff141414" />
+
+            <TextView
+                android:text="২০. অক্ষের সাথে যে কোণ উৎপন্ন করে "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:onClick="option20"
+                android:layout_margin="3dp"
+                android:background="#ffffb1cf"
+                android:textColor="#ff141414" />
+
+            <TextView
+                android:text="২১. লব্ধি ভেক্টরের সমান্তরাল একক ভেক্টর"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:onClick="option21"
+                android:layout_margin="3dp"
+                android:background="#ffffb1cf"
+                android:textColor="#ff141414" />
+
+            <TextView
+                android:text="২২. | AB | এর মান নির্ণয় কর"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:onClick="option22"
+                android:layout_margin="3dp"
+                android:background="#ffffb1cf"
+                android:textColor="#ff141414" />
+
+            <TextView
+                android:text="২৩. A এর দিক বরাবর একক ভেক্টর "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:onClick="option23"
+                android:layout_margin="3dp"
+                android:background="#ffffb1cf"
+                android:textColor="#ff141414" />
+
+            <TextView
+                android:text="২৪. B এর দিক বরাবর একক ভেক্টর "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:onClick="option24"
+                android:layout_margin="3dp"
+                android:background="#ffffb1cf"
+                android:textColor="#ff141414" />
+
+            <TextView
+                android:text= "২৫. A এর দিক বরাবর  B এর উপাংশ"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:onClick="option25"
+                android:layout_margin="3dp"
+                android:background="#ffffb1cf"
+                android:textColor="#ff141414" />
+
+            <TextView
+                android:text= "২৬. B এর দিক বরাবর A এর উপাংশ"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:onClick="option26"
+                android:layout_margin="3dp"
+                android:background="#ffffb1cf"
+                android:textColor="#ff141414" />
+
+        </LinearLayout>
+
+
+
+</RelativeLayout>
+</ScrollView>
